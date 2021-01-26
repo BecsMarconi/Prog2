@@ -1,3 +1,4 @@
+####                        ACTTTTGTCTAAA
 def ocorrencias(seq="Insira sua sequência: "):
     mesclado = "BDEFHIJKLMNOPQRSUVXWYZÇ"
     mesclado0 = lambda dna: dna.upper() in mesclado
@@ -49,18 +50,9 @@ def ocorrencias(seq="Insira sua sequência: "):
         except ErroEspeciais:
             print("Sequência inválida! Foi feito o uso de caracteres especiais.")
     print("Sequência válida!")
-    ocorrencias = {}
-    for n in seq1:
-        for n in ocorrencias:
-            if n not in ocorrencias:
-                ocorrencias[n] = 1
-            if n in ocorrencias:
-                ocorrencias[n] = ocorrencias[n] + 1
-        return ocorrencias
-    for n in seq1:
-        for n in ocorrencias:
-            if ocorrencias[n] >= 3:
-                lista = []
-                for n, i in enumerate(seq1):
-                    lista.append("(%s, %d, %d)" % (n, ocorrencias[n], i))
-                    print(lista)
+    ocorrencias = []
+    lista = []
+    for e, i in enumerate(seq1):
+        quantidade = int(seq1.count(e))
+        lista.append("(%s, %d, %d)" % (e, quantidade, i))
+    print(lista)
