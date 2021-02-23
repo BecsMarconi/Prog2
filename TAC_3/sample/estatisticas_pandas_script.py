@@ -1,3 +1,10 @@
+"""
+Author: Rebeca Marconi Pereira Raboeira
+Date: 19/02/2021
+Version: 6
+Last update: 23/02/2021
+"""
+
 import pandas as pd
 
 # função max coluna qualquer

@@ -1,3 +1,10 @@
+"""
+Author: Rebeca Marconi Pereira Raboeira
+Date: 19/02/2021
+Version: 4
+Last update: 23/02/2021
+"""
+
 # programa principal
 
 # recebe via linha de comando o nome de um arquivo (do tipo xlsx)
@@ -10,8 +17,6 @@ import pandas as pd
 programaPrincipal = sys.argv[0]
 refArquivoEntrada = sys.argv[1]
 
-
-# with pd.ExcelFile("C:/Users/rebec/Downloads/covid_cases_23_01_2021_clean.xlsx") as xlsx:
 with pd.ExcelFile(refArquivoEntrada) as xlsx:
     df = pd.read_excel(xlsx)
 
