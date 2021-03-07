@@ -1,5 +1,13 @@
+"""
+Author: Rebeca Marconi Pereira Raboeira
+Date: 05/02/2021 - 18:03
+Version: 7?
+Last update: 06/03/2021 - 02:16
+"""
+
 from Bio.Blast.Applications import NcbiblastxCommandline
 
+#
 # C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/sequenciaDesconhecida.fasta
 # C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta
 
