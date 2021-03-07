@@ -20,7 +20,6 @@ refArquivoEntrada = sys.argv[1]
 with pd.ExcelFile(refArquivoEntrada) as xlsx:
     df = pd.read_excel(xlsx)
 
-
 # importa o módulo “estatisticas_pandas_script.py” para
 import estatisticas_pandas_script as eps
 
@@ -71,7 +70,10 @@ def main():
     print('___' * 30)
 
     print("\nIsso é tudo.")
+
     pass
+
+
 
 if __name__ == '__main__':
     main()
