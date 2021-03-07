@@ -1,5 +1,5 @@
 from Bio.Blast.Applications import NcbiblastxCommandline
-#
+
 # C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/sequenciaDesconhecida.fasta
 # C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta
 
