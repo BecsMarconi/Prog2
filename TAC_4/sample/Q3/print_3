@@ -1,0 +1,24 @@
+Insira o caminho (de forma correta) para o arquivo FASTA: C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/sequenciaDesconhecida.fasta
+Insira o caminho (de forma correta) para o arquivo multi-fasta de proteínas: C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta
+Executando busca local...
+Fim da busca local.
+Traceback (most recent call last):
+  File "C:/Users/rebec/PycharmProjects/Prog2/TAC_4/sample/Q3/Maior_score.py", line 49, in <module>
+    maior_score = [blast_resultado.sort_values('bitscore')]
+AttributeError: '_io.TextIOWrapper' object has no attribute 'sort_values'
+
+Process finished with exit code 1
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Insira o caminho (de forma correta) para o arquivo FASTA: C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/sequenciaDesconhecida.fasta
+Insira o caminho (de forma correta) para o arquivo multi-fasta de proteínas: C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta
+Executando busca local...
+Traceback (most recent call last):
+  File "C:/Users/rebec/PycharmProjects/Prog2/TAC_4/sample/Q3/Maior_score.py", line 61, in <module>
+    maior_score = score.max()
+AttributeError: 'str' object has no attribute 'max'
+Fim da busca local.
+sequenciaDesconhecida	TcCLB.503447.20:mRNA-p1	100.000	730	0	0	1	2190	1	730	0.0	1429
+
+Process finished with exit code 1

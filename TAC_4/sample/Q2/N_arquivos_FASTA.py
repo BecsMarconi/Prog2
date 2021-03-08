@@ -8,7 +8,7 @@ Last update: 06/03/2021 - 17:53
 # Importações
 from Bio import SeqIO
 
-refSequencias = open('/TAC_4/lib/sequencias.fasta')
+refSequencias = open('C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/sequencias.fasta')
 N = 1
 for i in SeqIO.parse(refSequencias, "fasta"):
     arq_saida = "sequencia_"+str(N)
@@ -17,6 +17,5 @@ for i in SeqIO.parse(refSequencias, "fasta"):
 print("%d Arquivos foram gerados." %(N-1))
 
 refSequencias.close()
-arq_saida.close()
 
 ## Os (837) arquivos foram geraos no 'sample' então os movi para o 'Arquivos_Gerados' de forma manual.
