@@ -1,3 +1,6 @@
+print3
+
+
 Insira o caminho (de forma correta) para o arquivo FASTA: C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/sequenciaDesconhecida.fasta
 Insira o caminho (de forma correta) para o arquivo multi-fasta de proteínas: C:/Users/rebec/PycharmProjects/Prog2/TAC_4/lib/TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta
 Executando busca local...
