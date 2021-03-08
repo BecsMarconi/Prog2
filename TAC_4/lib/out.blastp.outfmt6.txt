@@ -751,4 +751,3 @@ sequenciaDesconhecida	TcCLB.418405.30:mRNA-p1	32.967	91	48	4	1906	2148	18	105	0.
 sequenciaDesconhecida	TcCLB.507881.110:pseudogenic_transcript-p1	34.118	85	54	2	835	1083	44	128	0.005	38.9
 sequenciaDesconhecida	TcCLB.401569.10:mRNA-p1	36.250	80	33	5	1879	2088	4	75	0.010	37.7
 sequenciaDesconhecida	TcCLB.508099.50:mRNA-p1	33.333	75	43	3	1915	2118	7	81	0.010	36.2
-.

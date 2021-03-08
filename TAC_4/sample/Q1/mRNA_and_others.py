@@ -22,6 +22,7 @@ def main():
     print("Proteína: %s" % proteina)
 
     pass
-.
+
+
 if __name__ == '__main__':
     main()
