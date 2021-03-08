@@ -21,4 +21,4 @@ AttributeError: 'str' object has no attribute 'max'
 Fim da busca local.
 sequenciaDesconhecida	TcCLB.503447.20:mRNA-p1	100.000	730	0	0	1	2190	1	730	0.0	1429
 
-Process finished with exit code 1
+Process finished with exit code 1.

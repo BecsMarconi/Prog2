@@ -53,7 +53,7 @@ bitscore = 11
 
 resultado = blast_resultado.read()
 s = resultado.split('\n')
-.
+
 for linha in s:
     hit = linha.split('\t')
     print(linha)
