@@ -2,12 +2,11 @@
 Author: Rebeca Marconi Pereira Raboeira
 Date: 05/02/2021 - 00:46
 Version: 2
-Last update: 06/03/2021 - 21:01
+Last update: 06/03/2021 - 21:01 .
 """
 
 # Código ('TAC_1/sample/Questao_1.py')
 # modificado para o tratamento de exceções
-
 
 def sequencia (seq=str(input("Insira sua sequência de DNA: "))):
     return seq

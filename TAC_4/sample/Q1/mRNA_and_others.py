@@ -5,9 +5,11 @@ Version: 2
 Last update: 06/03/2021 - 01:55
 """
 
+from Bio.Seq import Seq
+
 # Importações
 import Exceptions as ex
-from Bio.Seq import Seq
+
 
 # Programa Principal
 def main():
@@ -20,6 +22,6 @@ def main():
     print("Proteína: %s" % proteina)
 
     pass
-
+.
 if __name__ == '__main__':
     main()

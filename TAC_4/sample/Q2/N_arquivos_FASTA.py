@@ -17,5 +17,5 @@ for i in SeqIO.parse(refSequencias, "fasta"):
 print("%d Arquivos foram gerados." %(N-1))
 
 refSequencias.close()
-
+.
 ## Os (837) arquivos foram geraos no 'sample' então os movi para o 'Arquivos_Gerados' de forma manual.
